@@ -7,26 +7,33 @@
     <title>Calculator</title>
   </head>
   <body>
-    <div id="container">
-      <div id="display-result"></div>
-      <div class="btns-container">
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
-        <button>#</button>
+    <div class="calculator">
+      <input placeholder="text" class="calculator-screen" value="0" disabled />
+
+      <div class="calculator-keys">
+        <button type="button" class="operator" value="+">9</button>
+        <button type="button" class="operator" value="-">8</button>
+        <button type="button" class="operator" value="*">7</button>
+        <button type="button" class="operator" value="/">AC</button>
+
+        <button type="button" value="7">6</button>
+        <button type="button" value="8">5</button>
+        <button type="button" value="9">4</button>
+        <button type="button" value="4">+</button>
+
+        <button type="button" value="5">3</button>
+        <button type="button" value="6">2</button>
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">-</button>
+
+        <button type="button" value="3">0</button>
+        <button type="button" value="0">.</button>
+        <button type="button" class="decimal" value=".">=</button>
+        <button type="button" class="all-clear" value="all-clear">
+          &divide;
+        </button>
+
+        <button type="button" class="equal-sign" value="=">x</button>
       </div>
     </div>
     <script src="main.js"></script>
