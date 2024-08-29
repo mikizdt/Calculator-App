@@ -1,4 +1,49 @@
+* {
+  border-radius: 5px;
+}
+
 body {
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
-  padding: 0;
+  border: 1px solid red;
+}
+
+.calculator {
+  border: solid;
+  display: grid;
+  grid-template-columns: 100%;
+  margin: auto;
+  margin-top: 3em;
+  width: 10em;
+  background-color: black;
+}
+
+.calculator-keys {
+  border: 1px solid blue;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  background-color: rgb(202, 202, 8);
+  padding: 5px;
+}
+
+.equal-sign {
+  grid-column: 4;
+}
+
+input {
+  height: 65%;
+  margin: auto;
+  width: 10em;
+  color: black;
+  background-color: rgb(202, 202, 8);
+  text-align: right;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+button {
+  color: black;
+  background-color: red;
 }
