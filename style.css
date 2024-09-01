@@ -29,7 +29,8 @@ body {
 }
 
 .equal-sign {
-  grid-column: 4;
+  grid-column: 3 / 5; /* Span from the 3rd to the 4th column */
+  background-color: rgb(9, 84, 109); /* Just for visualizing */
 }
 
 input {
@@ -43,7 +44,15 @@ input {
   margin-top: 4px;
 }
 
+.all-clear {
+  background-color: rgba(237, 8, 8, 0.822);
+}
+
+.operator {
+  background-color: orange;
+}
+
 button {
-  color: black;
-  background-color: red;
+  color: white;
+  background-color: green;
 }
