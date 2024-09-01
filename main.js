@@ -5,6 +5,6 @@ const calculatorScreen = document.getElementsByTagName("input");
 for (let i = 0; i < numBtns.length; i++) {
   numBtns[i].addEventListener("click", function () {
     const value = this.value; // 'this' refers to the button that was clicked
-    console.log(value);
+    calculatorScreen[0].value = value;
   });
 }
