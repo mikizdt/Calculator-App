@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+#displayScreen {
+  border: 2px solid;
+}
+
+#calculatorBtns {
+  border: 1px solid;
+}
+
+#calculator {
+  max-width: 200px;
+}
