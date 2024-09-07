@@ -2,18 +2,24 @@ body {
   margin: 0;
 }
 
+#calculator {
+  display: grid;
+  margin: auto;
+  height: 75vh;
+  max-width: 50vh;
+  margin-top: 35px;
+}
+
 #displayScreen {
   border: 2px solid;
+  max-height: 50%;
+  margin: 5px;
+  text-align: end;
 }
 
 #calculatorBtns {
-  border: 1px solid;
-}
-
-#calculator {
   display: grid;
-  max-width: 200px;
-  margin: auto;
-  margin-top: 100px;
-  margin: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid;
+  height: 100%;
 }
