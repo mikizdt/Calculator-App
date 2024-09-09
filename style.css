@@ -8,6 +8,10 @@ body {
   height: 75vh;
   max-width: 50vh;
   margin-top: 35px;
+  border: solid red;
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
 }
 
 #displayScreen {
@@ -15,11 +19,45 @@ body {
   max-height: 50%;
   margin: 5px;
   text-align: end;
+  border-radius: 10px;
+  margin-bottom: -10px;
+  align-content: end;
+  color: white;
+  padding-right: 3px;
 }
 
 #calculatorBtns {
+  margin-top: -10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 1px solid;
   height: 100%;
+  gap: 3px;
+  background-color: darkgray;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#calculatorBtns button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: rgb(241, 182, 72);
+}
+
+.operator:hover {
+  background-color: rgb(235, 157, 11);
+}
+
+#clear-btn {
+  color: red;
+  grid-column-end: span 2;
+}
+
+#equals-btn {
+  grid-column-end: span 2;
+  color: green;
 }
