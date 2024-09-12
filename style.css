@@ -15,13 +15,13 @@ body {
 }
 
 #display-screen {
+  height: 2em;
   border: 2px solid blue;
   max-height: 50%;
   margin: 5px;
   text-align: end;
   border-radius: 10px;
   margin-bottom: -10px;
-  margin-top: -3px;
   align-content: end;
   color: white;
   padding-right: 3px;
@@ -38,7 +38,7 @@ body {
   border: 1px solid;
   height: 100%;
   gap: 3px;
-  background-color: rgb(67, 66, 66);
+  background-color: transparent;
   padding: 3px;
   border-radius: 10px;
 }

@@ -12,7 +12,9 @@ for (i = 0; i < calculatorBtns.length; i++) {
 }
 
 //eval expression
-equalsBtn.addEventListener("click", function () {});
+equalsBtn.addEventListener("click", function () {
+  displayScreen.innerText = eval(displayScreen.innerText);
+});
 
 //clear display screen
 clearBtn.addEventListener("click", function () {

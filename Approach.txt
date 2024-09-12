@@ -4,12 +4,13 @@ Approach:
 (Using a div instead of input=text beacause its a non-editable display with full control over styling and to prevent user modifications);
 2.Built CSS layout -- Center calculator on the page;Use grid for layout;Choose color scheme; 
 3.Add funtionality with Javascript -- Click event listeners for the buttons to capture their value and display it on the display screen;
- Function to calculate result and display it; Function to reset;
+ Function to calculate result and display it => eval(); Function to reset;
  
 
  ---------------------------------------------------
 
-Potencial bugs :
-Cannot add '.' more then one time.
-Define max numbers able to calculate.
+To-do:
+Displayscreen must have a max-width, so long numbers dont change the size of the div; 
+Define max numbers of decimal points(2);
+Finalize styling.
 
