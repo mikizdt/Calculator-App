@@ -15,15 +15,20 @@ body {
 }
 
 #display-screen {
-  border: 2px solid;
+  border: 2px solid blue;
   max-height: 50%;
   margin: 5px;
   text-align: end;
   border-radius: 10px;
   margin-bottom: -10px;
+  margin-top: -3px;
   align-content: end;
   color: white;
   padding-right: 3px;
+}
+
+.number:hover {
+  background-color: rgba(255, 255, 255, 0.458);
 }
 
 #calculatorBtns {
@@ -33,7 +38,7 @@ body {
   border: 1px solid;
   height: 100%;
   gap: 3px;
-  background-color: darkgray;
+  background-color: rgb(67, 66, 66);
   padding: 3px;
   border-radius: 10px;
 }
@@ -57,7 +62,22 @@ body {
   grid-column-end: span 2;
 }
 
+#clear-btn:hover {
+  background-color: red;
+  color: white;
+}
+
 #equals-btn {
   grid-column-end: span 2;
   color: green;
+  background-color: white;
+}
+
+#equals-btn:hover {
+  color: white;
+  background-color: green;
+}
+
+#zero {
+  grid-column-end: span 2;
 }

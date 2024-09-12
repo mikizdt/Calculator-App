@@ -5,4 +5,11 @@ Approach:
 2.Built CSS layout -- Center calculator on the page;Use grid for layout;Choose color scheme; 
 3.Add funtionality with Javascript -- Click event listeners for the buttons to capture their value and display it on the display screen;
  Function to calculate result and display it; Function to reset;
+ 
+
+ ---------------------------------------------------
+
+Potencial bugs :
+Cannot add '.' more then one time.
+Define max numbers able to calculate.
 
