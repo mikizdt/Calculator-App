@@ -1,9 +1,19 @@
 // variables
-const displayScreen = document.getElementById("displayScreen");
+
+const displayScreen = document.getElementById("display-screen");
 const clearBtn = document.getElementById("clear-btn");
 const equalsBtn = document.getElementById("equals-btn");
-const numBtns = document.getElementsByClassName("number");
+const calculatorBtns = document.getElementsByTagName("button");
 
 //get value from numbers buttons(on click) to display on screen
+for (i = 0; i < calculatorBtns.length; i++) {
+  calculatorBtns[i].addEventListener("click", function () {
+    displayScreen.innerText += this.innerText;
+  });
+}
+
 //eval expression
 //clear display screen
+clearBtn.addEventListener("click", function () {
+  displayScreen.innerText = "";
+});
