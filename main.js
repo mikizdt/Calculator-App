@@ -13,7 +13,8 @@ for (i = 0; i < calculatorBtns.length; i++) {
 
 //eval expression
 equalsBtn.addEventListener("click", function () {
-  displayScreen.innerText = eval(displayScreen.innerText);
+  // evaluates expression on displayScreen and returns it with 2 maximun decimal points.
+  displayScreen.innerText = eval(displayScreen.innerText).toFixed(2);
 });
 
 //clear display screen

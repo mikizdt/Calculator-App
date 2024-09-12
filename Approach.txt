@@ -11,6 +11,5 @@ Approach:
 
 To-do:
 Displayscreen must have a max-width, so long numbers dont change the size of the div; 
-Define max numbers of decimal points(2);
-Finalize styling.
+Finalize styling;
 

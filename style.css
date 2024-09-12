@@ -15,6 +15,7 @@ body {
 }
 
 #display-screen {
+  overflow: hidden;
   height: 2em;
   border: 2px solid blue;
   max-height: 50%;
